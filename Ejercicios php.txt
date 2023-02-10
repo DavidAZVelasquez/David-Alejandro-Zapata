@@ -1,0 +1,48 @@
+<?php
+  /* tipos de variables */
+  $string="Texto";
+  int = 1;
+  $Suma = 1+2
+  echo $Suma;
+  //Condiciones
+  $a = 1
+  $b =2
+  if ($a > $b){
+    $resultado = "Es Menor";
+  }
+  else{
+    $resultado = "Es Mayor";
+  }
+  elseif ($a=$b) {
+    $resultado = "Es Igual";
+  }
+  //ciclos
+  $a =1
+  while ($a<=10){
+    $a++;
+  }
+  $not=1
+  while($not<=15){
+    $not++;
+    if ($not<3){
+      $ap= "Repruba";
+      echo $ap;
+    }
+    elseif ($not=3) {
+      $ap= "regular";
+      echo $ap;
+    }
+    elseif ($not=4) {
+      $ap= "Aprueba";
+      echo $ap;
+    }
+    elseif ($not>=5 & $not<10) {
+      $ap= "Muy bien";
+      echo $ap;
+    }
+    elseif ($not>=10) {
+      $ap= "Felicitaciones";
+      echo $ap;
+    }
+  }
+?>
